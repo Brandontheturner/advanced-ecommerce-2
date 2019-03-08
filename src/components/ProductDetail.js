@@ -75,7 +75,6 @@ export class ProductDetail extends Component {
           </div>
         </div>
       </div>
-   
       <div className="products products-secondbox">
         <h5>
           <span>Our</span> Specials
@@ -161,7 +160,8 @@ export class ProductDetail extends Component {
               </span>
             </div>
           </div>
-      </div>
+        </div>
+        </div>
     )
   }
 }
