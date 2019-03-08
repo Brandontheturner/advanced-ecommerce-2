@@ -1,6 +1,11 @@
 import React from "react";
 import "./App.css";
 import "./components/Header";
+import "./components/Footer";
+import "./components/ImageSlider";
+import "./components/ProductDetail";
+import "./components/SubHeader";
+import "./components/TopNav";
 
 function App(props) {
   return (
