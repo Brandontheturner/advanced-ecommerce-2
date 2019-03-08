@@ -1,11 +1,12 @@
 import React from "react";
 import "./App.css";
-import "./components/Header";
-import "./components/Footer";
-import "./components/ImageSlider";
-import "./components/ProductDetail";
-import "./components/SubHeader";
-import "./components/TopNav";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import ImageSlider from "./components/ImageSlider";
+import ProductDetail from "./components/ProductDetail";
+import SubHeader from "./components/SubHeader";
+import TopNav from "./components/TopNav";
+import PropTypes from "prop-types";
 
 function App(props) {
   return (
