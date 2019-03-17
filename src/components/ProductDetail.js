@@ -1,9 +1,15 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
+import { products } from '../state';
 
 const ProductDetail = props => {
   return (
     <div>
+      
+    products.map(product =><ProductDetail key={product.id} product={product} /> 
+    
+      
+    
       <div className="grid_1_of_5 images_1_of_5">
         <img src="images/g1.jpg" />
         <h3>Lorem Ipsum is simply </h3>
@@ -61,16 +67,8 @@ const ProductDetail = props => {
   );
 };
 
-ProductDetail.PropTypes = {
-  product: PropTypes.array.isRequired
-  // id: PropTypes.number,
-  // name: PropTypes.string,
-  // description: PropTypes.string,
-  // price: PropTypes.number,
-  // imgUrl: PropTypes.any,
-  // category: PropTypes.string,
-  // rating: PropTypes.number,
-  // reviews: PropTypes.string
+ProductDetail.propTypes = {
+  product: PropTypes.object.isRequired
 };
 
 export default ProductDetail;
