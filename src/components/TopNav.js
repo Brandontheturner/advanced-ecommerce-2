@@ -62,7 +62,7 @@ function TopNav(props) {
             </a>
           </li>
           <li>
-            <a href="contact.html">>Feedback</a>
+            <a href="contact.html">Feedback</a>
           </li>
           <div className="clear"> </div>
         </ul>
