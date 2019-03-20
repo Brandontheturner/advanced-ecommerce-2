@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
 
-export default class Footer extends Component {
+class Footer extends Component {
   static propTypes = {
     prop: PropTypes
   };
@@ -10,3 +10,5 @@ export default class Footer extends Component {
     return <div />;
   }
 }
+
+export default Footer;
